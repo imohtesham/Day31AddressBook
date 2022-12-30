@@ -14,4 +14,5 @@ Values('shankar','rana','9th main','Bangaluru','Karnataka',560087,1234567897,'jk
 ('hasini','renyu','11th main','Hydrabad','Telangana',561237,1653267897,'pqr@gmail.com');
 
 SELECT FirstName From AddressBook where  City='Bangaluru' or State='Karnataka';
+SELECT COUNT(FirstName) as AddressBookCount,State,City from AddressBook group by State,City;
 
