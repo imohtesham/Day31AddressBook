@@ -8,5 +8,10 @@ State char(50),
 Zip bigint,
 PhoneNumber bigint,
 Email varchar(50)
-
 );
+INSERT INTO AddressBook
+VALUES('mohd','ibrahim','7th cross','hhyd','telangana',500065,5243454345,'abc@gmail.com'),
+('Mahesh','Koder','8th cross','Mysore','Karnataka',560066,1323567775,'def@gmail.com'),
+('haneef','Gowri','9th cross','Hydrabad','Telangana',500095,5478908765,'ghi@gmail.com'),
+('Sai','nath','4th cross','Jaipur','Rajasthan',660065,5243458745,'jkl@gmail.com');
+
